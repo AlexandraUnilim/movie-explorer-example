@@ -29,6 +29,11 @@ angular
         controller: 'MovieCtrl',
         controllerAs: 'movieCtrl'
       })
+      .when('/search', {
+        templateUrl: 'views/search.html',
+        controller: 'SearchCtrl',
+        controllerAs: 'search'
+      })
       .otherwise({
         redirectTo: '/'
       });

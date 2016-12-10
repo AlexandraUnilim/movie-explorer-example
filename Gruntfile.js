@@ -52,6 +52,7 @@ module.exports = function (grunt) {
         files: ['<%= yeoman.app %>/styles/{,*/}*.{scss,sass}'],
         tasks: ['sass:server']
       },
+
       gruntfile: {
         files: ['Gruntfile.js']
       },
@@ -221,7 +222,7 @@ module.exports = function (grunt) {
           }
       }
     }, 
-
+// Compiles Sass to CSS and generates necessary files if requested
     sass: {
         options: {
             includePaths: [
@@ -426,14 +427,14 @@ module.exports = function (grunt) {
     // Run some tasks in parallel to speed up the build process
     concurrent: {
       server: [
-        'sass:server',
+		'sass:server',
         'copy:styles'
       ],
       test: [
         'copy:styles'
       ],
       dist: [
-        'sass',
+		'sass',
         'copy:styles',
         'imagemin',
         'svgmin'

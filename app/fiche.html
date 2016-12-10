@@ -1,0 +1,175 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width">
+    <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+    <!-- build:css(.) styles/vendor.css -->
+    <!-- bower:css -->
+    <!-- endbower -->
+    <!-- endbuild -->
+    <!-- build:css(.tmp) styles/main.css -->
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="styles/responsive.css">	
+    <!-- endbuild -->
+    <base href="/">
+  </head>
+  <body ng-app="movieExplorerApp">
+    <!--[if lte IE 8]>
+      <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+    <![endif]-->
+
+    <!-- Tout le code html qui est integré ici est commun à l'ensemble des pages-->
+       <!-- Push Wrapper -->
+<div class="mp-pusher" id="mp-pusher">
+	<!-- mp-menu -->
+	<nav id="mp-menu" class="mp-menu">
+		<div class="mp-level">
+			<a class="icon icon-display" href="#/">Critéres de selection</a>
+			<ul>
+				<li class="icon icon-arrow-left">
+					<a class="icon icon-display" href="#/">Notes</a>
+					<div class="mp-level">
+						<a class="mp-back" href="#/">retour</a>
+						<ul>
+							<li><h4><INPUT type="checkbox" name="choix1" value="1"> IMDB</h4></li>
+							<li><h4><INPUT type="checkbox" name="choix1" value="1"> Sens Critique</h4></li>
+							<li><h4><INPUT type="checkbox" name="choix1" value="1"> Allo Ciné</h4></li>
+							<li><h4><INPUT type="checkbox" name="choix1" value="1"> Rotten Tomatoes</h4></li>
+							<li><h4><INPUT type="checkbox" name="choix1" value="1"> Premier</h4></li>
+							<li><h4><INPUT type="checkbox" name="choix1" value="1"> Critikat</h4></li>
+							<li><h4><INPUT TYPE="submit" NAME="nom" VALUE=" Envoyer "></h4></li>
+						</ul>
+					</div>
+					<li class="icon icon-arrow-left">
+					<a class="icon icon-display" href="#/">Commentaires</a>
+					<div class="mp-level">
+						<a class="mp-back" href="#/">retour</a>
+						<ul>
+							<li><h4><INPUT type="checkbox" name="choix1" value="1"> IMDB</h4></li>
+							<li><h4><INPUT type="checkbox" name="choix1" value="1"> Sens Critique</h4></li>
+							<li><h4><INPUT type="checkbox" name="choix1" value="1"> Allo Ciné</h4></li>
+							<li><h4><INPUT type="checkbox" name="choix1" value="1"> Rotten Tomatoes</h4></li>
+							<li><h4><INPUT type="checkbox" name="choix1" value="1"> Premier</h4></li>
+							<li><h4><INPUT type="checkbox" name="choix1" value="1"> Critikat</h4></li>
+							<li><h4><INPUT TYPE="submit" NAME="nom" VALUE=" Envoyer "></h4></li>
+						</ul>
+					</div>
+					<li class="icon icon-arrow-left">
+					<a class="icon icon-display" href="#/">Descriptifs</a>
+					<div class="mp-level">
+						<a class="mp-back" href="#/">retour</a>
+						<ul>
+							<li><h4><INPUT type="checkbox" name="choix1" value="1"> IMDB</h4></li>
+							<li><h4><INPUT type="checkbox" name="choix1" value="1"> Sens Critique</h4></li>
+							<li><h4><INPUT type="checkbox" name="choix1" value="1"> Allo Ciné</h4></li>
+							<li><h4><INPUT type="checkbox" name="choix1" value="1"> Rotten Tomatoes</h4></li>
+							<li><h4><INPUT type="checkbox" name="choix1" value="1"> Premier</h4></li>
+							<li><h4><INPUT type="checkbox" name="choix1" value="1"> Critikat</h4></li>
+							<li><h4><INPUT TYPE="submit" NAME="nom" VALUE=" Envoyer "></h4></li>
+						</ul>
+					</div>
+					</br>
+					<ul>
+					<a class="mp-back" href="#/">fermer le menu</a>
+					</ul>
+		</div>
+	</nav>
+
+
+    <div class="header"> 
+            <a class="navtitre" href="#/" >Movie Explorer</a>
+			<img class="recherche" src="images\icone_recherche.png" alt="Recherche"/>
+
+
+            <ul class="navig">
+              <li class="nav-item"><a href="#/"  id="trigger" class="menu-trigger">Choix des critères</a></li>
+			  <li class="nav-item"><a href="#/">Réglages</a></li>
+			  <li class="nav-item"><a href="#/">Quitter</a></li>
+            </ul>  
+     </div>
+
+	<!-- /mp-menu -->
+
+<div class="container">
+	<div class="bloc_fiche">
+		<div class="fiche">
+				<h1>Comme des bêtes</h1>
+				<h2 class="sous-titre">The Secret Life of Pets</h2>
+				<p class="affiche-desc">
+					<img class="left-desc" src="http://fr.web.img4.acsta.net/c_215_290/pictures/16/06/06/11/30/391424.jpg" alt="" />
+				</p>
+			<div class="right-note">
+				<h3 class="titre-cat">LA NOTE D'IMDb</h3>
+				<p>5/5</p>
+				<div class="right-desc">
+					<h3 class="titre-cat">LE SYNOPSIS ET LES DETAILS D'ALLOCINE</h3>
+					<p class="synopsis">La vie secrète que mènent nos animaux domestiques une fois que nous les laissons seuls à la maison pour partir au travail ou à l’école...</p>
+				</div>
+			</div>
+		</div>
+		<div class="comment">
+			<h3 class="titre-com">LES COMMENTAIRES DE SENSCRITIQUE</h3>
+			<div class="commentaire">
+				<h4>Pseudo</h4>
+				<p>Nec eorum quisquam aliquando stivam adprehendit vel arborem colit aut arva subigendo quaeritat victum, sed errant semper per spatia longe lateque distenta sine lare sine sedibus fixis aut legibus</p>
+			</div>
+			<div class="commentaire">
+				<h4>Pseudo</h4>
+				<p>Nec eorum quisquam aliquando stivam adprehendit vel arborem colit aut arva subigendo quaeritat victum, sed errant semper per spatia longe lateque distenta sine lare sine sedibus fixis aut legibus</p>
+			</div>
+			<div class="commentaire">
+				<h4>Pseudo</h4>
+				<p>Nec eorum quisquam aliquando stivam adprehendit vel arborem colit aut arva subigendo quaeritat victum, sed errant semper per spatia longe lateque distenta sine lare sine sedibus fixis aut legibus</p>
+			</div>
+			<div class="commentaire">
+				<h4>Pseudo</h4>
+				<p>Nec eorum quisquam aliquando stivam adprehendit vel arborem colit aut arva subigendo quaeritat victum, sed errant semper per spatia longe lateque distenta sine lare sine sedibus fixis aut legibus</p>
+			</div>
+			<div class="commentaire">
+				<h4>Pseudo</h4>
+				<p>Nec eorum quisquam aliquando stivam adprehendit vel arborem colit aut arva subigendo quaeritat victum, sed errant semper per spatia longe lateque distenta sine lare sine sedibus fixis aut legibus</p>
+			</div>
+		</div>
+	</div>
+</div>
+
+    <div class="footer">
+            <a href="#/"><span class="glyphicon glyphicon-heart"></span>Retour à l'accueil</a>
+            
+    </div>
+
+
+    <!-- Google Analytics: change UA-XXXXX-X to be your site's ID -->
+     <script>
+       !function(A,n,g,u,l,a,r){A.GoogleAnalyticsObject=l,A[l]=A[l]||function(){
+       (A[l].q=A[l].q||[]).push(arguments)},A[l].l=+new Date,a=n.createElement(g),
+       r=n.getElementsByTagName(g)[0],a.src=u,r.parentNode.insertBefore(a,r)
+       }(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+       ga('create', 'UA-XXXXX-X');
+       ga('send', 'pageview');
+    </script>
+
+    <!-- build:js(.) scripts/vendor.js -->
+    <!-- bower:js -->
+    <script src="bower_components/angular/angular.js"></script>
+    <script src="bower_components/angular-animate/angular-animate.js"></script>
+    <script src="bower_components/angular-cookies/angular-cookies.js"></script>
+    <script src="bower_components/angular-resource/angular-resource.js"></script>
+    <script src="bower_components/angular-route/angular-route.js"></script>
+    <script src="bower_components/angular-sanitize/angular-sanitize.js"></script>
+    <script src="bower_components/angular-touch/angular-touch.js"></script>
+    <!-- endbower -->
+    <!-- endbuild -->
+
+        <!-- build:js({.tmp,app}) scripts/scripts.js -->
+        <script src="scripts/app.js"></script>
+        <script src="scripts/controllers/main.js"></script>
+        <script src="scripts/services/movies.js"></script>
+        <script src="scripts/controllers/movie.js"></script>
+        <!-- endbuild -->
+</body>
+</html>
